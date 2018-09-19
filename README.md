@@ -1,48 +1,38 @@
-# Project Oversight Dashboard on AWS
-##### Supervised Learning and Classifier Training for Face Recognition on AWS Rekognition
-
-## Description
-Project Oversight is a robust, enterprise grade multi-tasking convolutional neural net based framework optimized for speed and performance using AWS services here. 
+# Data Tag Dashboard for Supervised Learning
+##### A Visial representation for data scientists and developers to use unlabelled clustered data to tag and convert to labelled data to train classifiers
 
 ## Inspiration
-This project is greatly inspired from the Azure Video Indexer and Google FaceNet, thereby harnessing Google's whitepaper implementations and applying them for real world production ready use cases and environments as a robust solution
-
-* [Google's Facenet] - Face Embeddings whitepapers
+This project is greatly inspired from the Azure Video Indexer and AWS Rekognition console, with a drag and drop enabled workspace to manage bulk of images which is impossible for a person to manually go through.
 
 ### Technology
 
 Oversight uses a number of open source projects to work properly:
 
-* [Node.JS] - A google open-source ML framework
-* [Python] - awesome language we love
+* [Twitter Bootstrap] - great UI boilerplate for modern web apps
+* [node.js] - evented I/O for the backend
+* [Express] - fast node.js network app framework
+* [Gulp] - the streaming build system
+* [jQuery] - duh
+
 
 ### Architecture Diagram
 
 ##### Architecture for Clustering Pipeline
-#
-[![Architecture](https://raw.githubusercontent.com/pourabkarchaudhuri/photo-gallery-dashboard-s3/master/Oversight%20on%20AWS.png)](https://nodesource.com/products/nsolid)
-##### Architecture for Retraining Pipeline
-#
-[![ArchitectureII](https://raw.githubusercontent.com/pourabkarchaudhuri/photo-gallery-dashboard-s3/master/Oversight%20on%20AWS%20II.png)](https://nodesource.com/products/nsolid)
-
-## AWS services used for this solution:
-
-* Lambda - serverless containers!
-* EC2 - Cloud server
-* API Gateway - Service layer
-* Cloudwatch - Dashboards and Alarms
-* SNS - Notification service
-* Elastic Transcoder - Superfast video transcoding and media codec service
-* Rekognition - Face Recognition and detection as a service
-* SNS - Notification service
-
 
 ### Installation
 
-Project Oversight on AWS requires nodejsv8.11+ to run.
+This dashboard requires nodejsv8.11+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
+### For Local on Windows/MacOS/Linux:
+```sh
+
+$ npm install
+$ node index.js
+```
+
+### For EC2 on AWS:
 For EC2 Configuration, Use AMI : Amazon Linux II :
 
 ```sh
@@ -80,5 +70,10 @@ Public
 
    [Node.JS]: <https://nodejs.org/en/>
    [Python]: <https://www.python.org/>
+[node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [express]: <http://expressjs.com>
+   [Gulp]: <http://gulpjs.com>
 
   
