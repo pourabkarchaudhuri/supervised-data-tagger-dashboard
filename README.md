@@ -14,10 +14,10 @@ Oversight uses a number of open source projects to work properly:
 * [Gulp] - the streaming build system
 * [jQuery] - duh
 
-
+### Screenshot of Dashboard
+[![Architecture](https://raw.githubusercontent.com/pourabkarchaudhuri/supervised-data-tagger-dashboard/master/Dashboard%20Screenshot.png)](https://nodesource.com/products/nsolid)
 ### Architecture Diagram
-
-##### Architecture for Clustering Pipeline
+[![Architecture](https://raw.githubusercontent.com/pourabkarchaudhuri/supervised-data-tagger-dashboard/master/Oversight%20on%20Tensorflow.png)](https://nodesource.com/products/nsolid)
 
 ### Installation
 
@@ -27,7 +27,8 @@ Install the dependencies and devDependencies and start the server.
 
 ### For Local on Windows/MacOS/Linux:
 ```sh
-
+$ git clone https://github.com/pourabkarchaudhuri/supervised-data-tagger-dashboard.git
+$ cd supervised-data-tagger-dashboard
 $ npm install
 $ node index.js
 ```
